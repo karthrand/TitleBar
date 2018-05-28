@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="horizontal"
+	android:id="@+id/simpleTitle"
+	android:background="#FF186CE9">
+    <!--简单ActionBar第一步：
+        创建title的布局文件，主要由2个按钮和一个文本组成；
+    -->
+
+	<Button
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="返回"
+		android:id="@+id/simple_title_back"
+		android:gravity="center"
+		android:layout_margin="5dp"
+		android:background="#FF186CE9"/>
+
+	<TextView
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:text="标题栏"
+		android:id="@+id/simple_title_text"
+		android:layout_gravity="center"
+		android:layout_weight="1.0"
+		android:gravity="center"
+		android:textSize="24sp"/>
+
+	<Button
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="功能"
+		android:id="@+id/simple_title_func"
+		android:background="#FF186CE9"
+		android:layout_gravity="center"
+		android:layout_margin="5dp"/>
+
+</LinearLayout>
+

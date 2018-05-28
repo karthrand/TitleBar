@@ -5,6 +5,7 @@ import java.util.*;
 import android.view.*;
 import android.widget.*;
 import android.content.*;
+import com.oude.titlebar.SimpleTitleBarActivity;
 
 public class MyListAdapter extends RecyclerView.Adapter<MyListAdapter.ViewHolder>
 {
@@ -38,9 +39,8 @@ public class MyListAdapter extends RecyclerView.Adapter<MyListAdapter.ViewHolder
                     MyList MyList = mMyList.get(position);
                     switch(position){
                         case 0:
-                            //Intent intent = new Intent(v.getContext(),TargetActivity.class);
-                           // v.getContext().startActivity(intent);
-
+                            Intent intent = new Intent(v.getContext(),SimpleTitleBarActivity.class);
+                            v.getContext().startActivity(intent);
                             break;
                         default:
                             Toast.makeText(v.getContext(), "you clicked view " + MyList.getName(), Toast.LENGTH_SHORT).show();
