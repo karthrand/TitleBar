@@ -27,15 +27,8 @@ public class MainActivity extends Activity
         list.add(list1);
         MyList  list2 = new MyList("沉浸式自定义标题栏", R.drawable.ic_launcher);
         list.add(list2);
-        MyList  list3 = new MyList("List3", R.drawable.ic_launcher);
+        MyList  list3 = new MyList("MD风格自定义标题栏", R.drawable.ic_launcher);
         list.add(list3);
-        MyList  list4 = new MyList("List4", R.drawable.ic_launcher);            list.add(list4);
-        MyList  list5 = new MyList("List5", R.drawable.ic_launcher);
-        list.add(list5);
-        MyList  list6 = new MyList("List6", R.drawable.ic_launcher);
-        list.add(list6);
-        MyList  list7 = new MyList("List7", R.drawable.ic_launcher);
-        list.add(list7);
     }
     
 }
