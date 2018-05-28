@@ -3,7 +3,10 @@
     android:layout_height="fill_parent"
     android:orientation="vertical">
     <!--简单ActionBar第二步：
-        引入第一步创建的title布局文件
+        引入第一步创建自定义的title布局文件
     -->
-    <include layout="@layout/simpleTitle" />
+    <com.oude.titlebar.SimpleTitle
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+        
 </LinearLayout>
