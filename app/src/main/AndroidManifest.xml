@@ -23,7 +23,7 @@
         </activity>
         <activity
             android:name=".ImmersionTitleBarActivity"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            android:theme="@style/ImmersionTheme">
         </activity>
     </application>
 

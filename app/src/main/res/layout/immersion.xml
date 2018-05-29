@@ -1,6 +1,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
+    android:fitsSystemWindows="true"
     android:orientation="vertical">
     <!--沉浸ActionBar第二步：
         引入第一步创建自定义的title布局文件

@@ -2,4 +2,7 @@
 <resources>
     <style name="AppTheme" parent="@android:style/Theme.Holo.Light">
 	</style>
+    <style name="ImmersionTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Android 4.4 之前的默认实现  -->
+    </style>
 </resources>

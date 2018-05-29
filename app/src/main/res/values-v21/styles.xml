@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- 沉浸ActionBar第五步：设置沉浸效果 -->
     <style name="AppTheme" parent="@android:style/Theme.Material.Light">
 	</style>
+    <style name="ImmersionTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <!-- 设置通知栏颜色 -->
+        <item name="android:statusBarColor">#99CCFF</item>
+    </style>
 </resources>

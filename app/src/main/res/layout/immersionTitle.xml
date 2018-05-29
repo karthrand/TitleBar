@@ -7,7 +7,14 @@
 	android:id="@+id/immersionTitle"
 	android:background="#99CCFF">
 
+    <!--沉浸ActionBar第一步：创建自定义沉浸式title，
+        主要属性：
+        style 去掉按钮的边框
+        android:drawableLeft 在按钮左边设置图片
+        android:background   设置按钮效果      
+    -->
 	<Button
+        style = "?android:attr/borderlessButtonStyle"
 		android:layout_width="60dp"
 		android:layout_height="match_parent"
 		android:text="返回"
@@ -36,6 +43,7 @@
 		android:textSize="20sp"/>
 
 	<Button
+        style = "?android:attr/borderlessButtonStyle"
 		android:layout_width="60dp"
 		android:layout_height="match_parent"
 		android:text="功能"

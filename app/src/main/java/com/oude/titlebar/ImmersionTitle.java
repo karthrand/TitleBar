@@ -13,6 +13,7 @@ public class ImmersionTitle extends LinearLayout
     private Button immersion_back,immersion_func;
     public ImmersionTitle(Context context, AttributeSet attrs)
     {
+        //沉浸ActionBar第三步：设置title的按钮功能
         super(context,attrs);
         LayoutInflater.from(context).inflate(R.layout.immersionTitle,this);
         immersion_back = findViewById(R.id.immersion_title_back);
