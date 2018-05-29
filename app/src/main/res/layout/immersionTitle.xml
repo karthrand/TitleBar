@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="52dp"
+	android:orientation="horizontal"
+	android:id="@+id/immersionTitle"
+	android:background="#99CCFF">
+
+	<Button
+		android:layout_width="60dp"
+		android:layout_height="match_parent"
+        android:text="返回"
+        android:id="@+id/immersion_title_back"
+		android:drawableLeft="@drawable/back_arrow"
+		android:background="@drawable/button_selector"
+		android:gravity="center"
+        android:layout_margin="0dp"
+        android:singleLine="true"
+        android:textColor="#FFFFFF"
+        android:ellipsize="end"
+		android:textSize="18sp"
+		android:paddingLeft="5dp"/>
+
+	<TextView
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:text="标题栏"
+		android:id="@+id/immersion_title_text"
+		android:layout_gravity="center|center_horizontal"
+		android:layout_weight="1.0"
+		android:gravity="center"
+        android:singleLine="true"
+        android:textColor="#FFFFFF"
+        android:ellipsize="marquee"
+		android:textSize="20sp"/>
+
+	<Button
+		android:layout_width="60dp"
+		android:layout_height="match_parent"
+        android:text="功能"
+        android:id="@+id/immersion_title_func"
+		android:background="@drawable/button_selector"
+		android:layout_gravity="center"
+		android:layout_margin="0dp"
+		android:singleLine="true"
+		android:textColor="#FFFFFF"
+        android:ellipsize="marquee"
+		android:textSize="18sp"
+		android:paddingLeft="5dp"/>
+
+</LinearLayout>
+

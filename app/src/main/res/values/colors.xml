@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 标题栏按钮背景颜色 -->
+    <drawable name="button_pressed">#6699FF</drawable>
+    <drawable name="button_normal">#99CCFF</drawable>
+
+</resources>

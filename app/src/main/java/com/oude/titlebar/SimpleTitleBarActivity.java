@@ -1,7 +1,6 @@
 package com.oude.titlebar;
 import android.app.*;
 import android.os.*;
-import com.oude.titlebar.R;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.app.ActionBar;
 import android.widget.Button;
