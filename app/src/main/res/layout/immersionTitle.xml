@@ -10,15 +10,15 @@
 	<Button
 		android:layout_width="60dp"
 		android:layout_height="match_parent"
-        android:text="返回"
-        android:id="@+id/immersion_title_back"
+		android:text="返回"
+		android:id="@+id/immersion_title_back"
 		android:drawableLeft="@drawable/back_arrow"
 		android:background="@drawable/button_selector"
 		android:gravity="center"
-        android:layout_margin="0dp"
-        android:singleLine="true"
-        android:textColor="#FFFFFF"
-        android:ellipsize="end"
+		android:layout_margin="0dp"
+		android:singleLine="true"
+		android:textColor="#FFFFFF"
+		android:ellipsize="end"
 		android:textSize="18sp"
 		android:paddingLeft="5dp"/>
 
@@ -30,22 +30,22 @@
 		android:layout_gravity="center|center_horizontal"
 		android:layout_weight="1.0"
 		android:gravity="center"
-        android:singleLine="true"
-        android:textColor="#FFFFFF"
-        android:ellipsize="marquee"
+		android:singleLine="true"
+		android:textColor="#FFFFFF"
+		android:ellipsize="marquee"
 		android:textSize="20sp"/>
 
 	<Button
 		android:layout_width="60dp"
 		android:layout_height="match_parent"
-        android:text="功能"
-        android:id="@+id/immersion_title_func"
+		android:text="功能"
+		android:id="@+id/immersion_title_func"
 		android:background="@drawable/button_selector"
 		android:layout_gravity="center"
 		android:layout_margin="0dp"
 		android:singleLine="true"
 		android:textColor="#FFFFFF"
-        android:ellipsize="marquee"
+		android:ellipsize="marquee"
 		android:textSize="18sp"
 		android:paddingLeft="5dp"/>
 
