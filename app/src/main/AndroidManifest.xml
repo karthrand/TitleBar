@@ -25,6 +25,11 @@
             android:name=".ImmersionTitleBarActivity"
             android:theme="@style/ImmersionTheme">
         </activity>
+        <activity
+            android:name=".ToolBarActivity"
+            android:label="@string/toolbar_name"
+            android:theme="@style/ToolBarTheme">
+        </activity>
     </application>
 
 </manifest>

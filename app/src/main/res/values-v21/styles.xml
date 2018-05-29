@@ -9,4 +9,15 @@
         <!-- 设置通知栏颜色 -->
         <item name="android:statusBarColor">#99CCFF</item>
     </style>
+    
+    <!-- toolbar使用的主题-->
+    <style name="ToolBarTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!--此处设置主题颜色，其中：
+            colorPrimary为标题栏颜色
+            colorPrimaryDark为标题栏上面部分颜色，即沉浸式部分
+        -->
+        <item name="colorPrimary">#99CCFF</item>
+        <item name="colorPrimaryDark">#99CCFF</item>
+    </style>
+    
 </resources>

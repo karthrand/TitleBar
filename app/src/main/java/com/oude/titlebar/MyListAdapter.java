@@ -46,8 +46,12 @@ public class MyListAdapter extends RecyclerView.Adapter<MyListAdapter.ViewHolder
                             Intent intent1 = new Intent(v.getContext(),ImmersionTitleBarActivity.class);
                             v.getContext().startActivity(intent1);
                             break;
+                        case 2:
+                            Intent intent2 = new Intent(v.getContext(),ToolBarActivity.class);
+                            v.getContext().startActivity(intent2);
+                            break;
                         default:
-                            Toast.makeText(v.getContext(), "you clicked view " + MyList.getName(), Toast.LENGTH_SHORT).show();
+                            Toast.makeText(v.getContext(), "未知错误", Toast.LENGTH_SHORT).show();
                             break;
                     }
                 }
