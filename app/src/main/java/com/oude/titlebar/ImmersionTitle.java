@@ -25,6 +25,7 @@ public class ImmersionTitle extends LinearLayout
                 public void onClick(View p1)
                 {
                     ((Activity)getContext()).finish();
+                    ((Activity)getContext()).overridePendingTransition(android.R.anim.slide_in_left, android.R.anim.slide_out_right);
                 }
             });
             
